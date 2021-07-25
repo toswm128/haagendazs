@@ -292,7 +292,10 @@ footer > div > ul > li > a {
     width: 60%;
   }
   .reverse {
-    flex-direction: column-reverse;
+    flex-direction: column;
+  }
+  .box {
+    margin: 15px;
   }
 }
 
