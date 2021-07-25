@@ -125,6 +125,7 @@ section {
 }
 
 .itemFlexer {
+  max-width: 577.5px;
   width: 50%;
   display: flex;
   flex-wrap: wrap;
@@ -139,13 +140,14 @@ section {
   width: 100%;
   display: flex;
   justify-content: center;
+  margin: 0 15px;
   align-items: center;
   background-image: url("https://res.cloudinary.com/general-mills/image/upload/c_fill,dpr_auto,h_750,w_750/v1568200202/HaagenDazs/2019/09/11/choc-choc-almond_fpi.png");
 }
 
 .boxs {
   width: 50%;
-  padding: 0 15px 0 15px;
+  padding: 0 15px;
   box-sizing: border-box;
   margin-bottom: 30px;
 }
@@ -166,7 +168,7 @@ section {
 }
 
 .item > span {
-  height: 60px;
+  height: 100px;
   font-size: 36px;
   text-align: center;
   font-weight: 700;
@@ -218,13 +220,13 @@ footer > div > ul > li > a {
   text-decoration: none;
 }
 
-@media all and (max-width: 1155px) {
+@media all and (max-width: 1200px) {
   section {
     width: 100%;
   }
 }
 
-@media all and (max-width: 960px) {
+@media all and (max-width: 959px) {
   .header-left {
     display: none;
   }
@@ -252,7 +254,7 @@ footer > div > ul > li > a {
   }
 }
 
-@media all and (max-width: 695px) {
+@media all and (max-width: 755px) {
   footer > div > ul {
     flex-wrap: wrap;
     justify-content: center;
