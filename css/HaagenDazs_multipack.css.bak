@@ -1,0 +1,39 @@
+/* 초기화 */
+body, div, header, article, section, footer, h1, h2, h3, h4, h5, h6, ul, li, p{padding:0; margin:0;}
+ul, li{list-style:none;}
+hr, img{border:none;}
+img{box-sizing:border-box;}
+.hidden{display:none;}
+
+/* 헤더 영역 */
+header{width:100%; height:100%; background-color:yellow;}
+header div:nth-child(2){width:100%; height:26px; background-color:#40061e;}
+header div:nth-child(3){width:100%; height:46px; background-color:#650a30;}
+header div:nth-child(4){width:100%; height:74px; background:url(../images/vanilla-caramel-almond_1.png) no-repeat center;}
+
+/* 비주얼 영역 */
+article{width:100%; height:250px; background-color:none; margin:0 auto;}
+article div#text01 p{margin:0 auto; color:#650a30;}
+article div#text01 p:nth-child(1){font-size:48px; font-weight:bold; text-align:center; padding:50px 0 14px 0; letter-spacing:-2px;}
+article div#text01 p:nth-child(2){width:770px; line-height:25px; letter-spacing:-0.5px;}
+
+/* 컨텐츠 영역 */
+section{width:1170px; overflow:hidden; background-color:#fff; margin:0 auto;}
+section div#contents div{width:268.9px; height:245px; background-color:#fff; float:left; border:1px solid gray; background-repeat:no-repeat; background-position:center; background-size:cover;}
+section div#contents div:nth-child(2){margin:0 30px;}
+section div#contents div:nth-child(1){width:568px; height:558px; background:url(../images/vanilla-caramel-almond.png); border:none;}
+section div#contents div:nth-child(1) > div.fff{width:548px; height:538px; background:#fff; margin:10px;}
+section div#contents div:nth-child(1) > div.fff a > img{margin-left:72px; margin-top:20px;}
+section div#contents div:nth-child(1) > div.fff > p{font-size:36px; padding:5px 20px; text-align:center; font-weight:bold; line-height:40px; letter-spacing:-1px; color:#650a30;}
+
+section div#contents div > a > img{margin-left:50px; margin-top:10px;}
+section div#contents div > p{text-align:center; font-size:22px; padding:0 20px; line-height:25px; color:#48484e;}
+
+/* 푸터 영역 */
+footer{width:100%; height:182px; background-color:skyblue;}
+footer div{width:54.5%; height:100%; background-color:#FFF; margin:0 auto;}
+
+/* 반응형 */
+@media all and (max-width:959px){
+	header div:nth-child(1){display:none;}
+}

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/HaagenDazs_multipack.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <title>Document</title>
+ </head>
+ <body>
+ <div id="wrap">
+	<!-- 헤더 영역 -->
+	<header>
+		<h2 class="hidden">헤더 영역</h2>
+		<div>
+		</div>
+		<div>
+		</div>
+		<div>
+		</div>
+	</header>
+	<!-- 비주얼 영역 -->
+	<article>
+		<h2 class="hidden">비주얼 영역</h2>
+		<div id="text01">
+			<p>콘 멀티팩</p>
+			<p>진하고 부드러운 하겐다즈 아이스크림을 가득 담은 고소하고 바삭한 크런치콘! 친구, 가족들과 함께 나눌 수 있어 더 좋은 멀티팩 (3개입) 으로 즐겨보세요.</p>
+		</div>
+	</article>
+	<!-- 컨텐츠 영역 -->
+	<section>
+		<h2 class="hidden">컨텐츠 영역</h2>
+		<div id="contents">
+			<div>
+				<div class="fff">
+					<a href="#">
+						<img src="images/Vanilla-Caramel-Almond_MPK.png" alt="멀티팩" width="74%"/>
+					</a>
+					<p>바닐라 카라멜 아몬드 크런치콘 멀티팩</p>
+				</div>
+			</div>
+			<div>
+				<a href="#">
+					<img src="images/Chocolate-choc-almond-Cone_MPK.png" alt="멀티팩" width="63%"/>
+				</a>
+				<p>초콜릿 초코 아몬드 크런치콘 멀티팩</p>
+			</div>
+			<div>
+				<a href="#">
+					<img src="images/Green-Tea_MPK-1.png" alt="멀티팩" width="63%"/>
+				</a>
+				<p>그린티 크런치콘 멀티팩</p>
+			</div>
+		</div>
+	</section>
+	<!-- 푸터 영역 -->
+	<footer>
+		<h2 class="hidden">푸터 영역</h2>
+		<div>
+			<ul>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+			</ul>
+			<span></span>
+		</div>
+		
+	</footer>
+ </div>
+ </body>
+</html>
