@@ -247,6 +247,9 @@ footer > div > ul > li > a {
   .reverse {
     flex-direction: column-reverse;
   }
+  .box {
+    margin: 15px;
+  }
 }
 
 @media all and (max-width: 695px) {
