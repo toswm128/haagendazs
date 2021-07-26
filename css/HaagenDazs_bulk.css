@@ -288,7 +288,7 @@ footer > div > ul > li > a {
   .content {
     flex-direction: column;
     align-items: center;
-    max-width: 770px;
+    max-width: 800px;
     margin: 0 auto 0 auto;
   }
   .itemFlexer {
@@ -307,6 +307,12 @@ footer > div > ul > li > a {
   .big {
     padding-bottom: 15px;
   }
+  article {
+    padding: 0 30px;
+  }
+  .article-bulk > li {
+    margin-left: 15px;
+  }
 }
 
 @media screen and (max-width: 755px) {
@@ -316,12 +322,17 @@ footer > div > ul > li > a {
   .article-content {
     flex-direction: column;
     align-items: center;
+    padding-bottom: 20px;
   }
   .article-content > img {
     height: 100%;
   }
   .article-content > #text01 {
     width: 100%;
+  }
+  .item > span {
+    font-size: 24px;
+    font-weight: 400;
   }
   .article-content > #text01 p:nth-child(1) {
     position: static;
@@ -333,8 +344,9 @@ footer > div > ul > li > a {
     font-size: 16px;
   }
   article {
-    padding: 0 7.5px;
+    padding: 20px 7.5px;
   }
+
   .article-bulk {
     padding: 0;
     align-items: flex-start;
