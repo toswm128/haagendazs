@@ -16,6 +16,7 @@ li,
 p {
   padding: 0;
   margin: 0;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 ul,
 li {
@@ -111,20 +112,23 @@ article {
 }
 
 .article-bulk {
-  padding: 30px 0 30px 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  height: 100px;
+  padding: 35px 0 35px 0;
+  height: 60px;
+  width: 1170px;
 }
 
 .article-bulk > li {
-  width: 70%;
+  margin: 0 auto;
+  max-width: 770px;
+  width: 100%;
   color: #650a30;
   list-style: disc;
   font-size: 16px;
   font-weight: 400;
+}
+
+.article-bulk > li:nth-child(2) {
+  margin-top: 8px;
 }
 
 .article-top {
@@ -155,13 +159,12 @@ section {
   width: 1170px;
   overflow: hidden;
   margin: 0 auto;
+  padding: 0 30px;
 }
 
 .content {
   padding-top: 20px;
   display: flex;
-  justify-content: space-between;
-  gap: 15px;
 }
 
 .reverse {
@@ -169,7 +172,6 @@ section {
 }
 
 .itemFlexer {
-  max-width: 577.5px;
   width: 50%;
   display: flex;
   flex-wrap: wrap;
@@ -208,6 +210,7 @@ section {
 .item > img {
   width: 80%;
   margin: 0 auto 0 auto;
+  padding: 20px 0;
   object-fit: cover;
 }
 
@@ -230,6 +233,7 @@ section {
 .items > img {
   width: 75%;
   margin: 0 auto 0 auto;
+  padding: 10px 0;
 }
 
 .items > span {
@@ -266,6 +270,7 @@ footer > div > ul > li > a {
 
 @media screen and (max-width: 1200px) {
   section {
+    box-sizing: border-box;
     width: 100%;
   }
   article {
@@ -291,13 +296,16 @@ footer > div > ul > li > a {
     width: 100%;
   }
   .item > img {
-    width: 60%;
+    width: 75%;
   }
   .reverse {
     flex-direction: column;
   }
   .box {
     margin: 15px;
+  }
+  .big {
+    padding-bottom: 15px;
   }
 }
 
@@ -330,6 +338,9 @@ footer > div > ul > li > a {
   .article-bulk {
     padding: 0;
     align-items: flex-start;
+  }
+  footer > div > ul > li:nth-child(odd) {
+    text-align: end;
   }
 }
 

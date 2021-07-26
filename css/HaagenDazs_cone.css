@@ -16,6 +16,7 @@ li,
 p {
   padding: 0;
   margin: 0;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 ul,
 li {
@@ -112,12 +113,11 @@ section {
   width: 1170px;
   overflow: hidden;
   margin: 0 auto;
+  padding: 0 30px;
 }
 
 .content {
   display: flex;
-  justify-content: space-between;
-  gap: 15px;
 }
 
 .reverse {
@@ -125,7 +125,6 @@ section {
 }
 
 .itemFlexer {
-  max-width: 577.5px;
   width: 50%;
   display: flex;
   flex-wrap: wrap;
@@ -162,8 +161,9 @@ section {
 }
 
 .item > img {
-  width: 75%;
+  width: 80%;
   margin: 0 auto 0 auto;
+  padding: 20px 0;
   object-fit: cover;
 }
 
@@ -186,6 +186,7 @@ section {
 .items > img {
   width: 75%;
   margin: 0 auto 0 auto;
+  padding: 10px 0;
 }
 
 .items > span {
@@ -222,6 +223,7 @@ footer > div > ul > li > a {
 
 @media all and (max-width: 1200px) {
   section {
+    box-sizing: border-box;
     width: 100%;
   }
 }
@@ -244,13 +246,16 @@ footer > div > ul > li > a {
     width: 100%;
   }
   .item > img {
-    width: 60%;
+    width: 75%;
   }
   .reverse {
     flex-direction: column-reverse;
   }
   .box {
     margin: 15px;
+  }
+  .big {
+    padding-bottom: 15px;
   }
 }
 
@@ -260,7 +265,19 @@ footer > div > ul > li > a {
     justify-content: center;
   }
 
+  article div#text01 p:nth-child(1) {
+    font-size: 32px;
+  }
+
+  article div#text01 p:nth-child(2) {
+    font-size: 16px;
+  }
+
   footer > div > ul > li {
     width: 40%;
+  }
+
+  footer > div > ul > li:nth-child(odd) {
+    text-align: end;
   }
 }
